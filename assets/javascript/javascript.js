@@ -40,7 +40,7 @@ $("#additional").on("click", function(event) {
 $(document).on("click", ".topic-button", function() {
 	$("#movie-gif").empty(); //empties out previous gifs
 
-	var apiKey = "c64ca2f719e54ca5baaaf7946271c6e4";
+	var apiKey = "BkaUZZWcFij6J7AoQj3WtPb1R2p9O6V9";
 	var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + $(this).html() + "&api_key=" + apiKey + "&limit=10";
 	
 
